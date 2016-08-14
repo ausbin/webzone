@@ -10,11 +10,12 @@ body {
 div#container {
   max-width: 480px;
   margin: 0 auto;
+  padding: 8px;
 }
 
 header {
   display: block;
-  margin: 8px 0 16px 0;
+  margin: 0 0 16px 0;
 }
 
 header a#logo {
