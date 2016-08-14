@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ if .IsPage }}{{ .Title }} « {{ end }}{{ .Site.Title }}</title>
+    <meta charset="utf-8">
+    <link rel="icon" href="/favicon.ico">
+    <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
+
+    <meta name="author" content="Austin Adams">
+    <meta name="description" content="{{ .Description }}">
+    <meta name="generator" content="{{ .Hugo.Generator }}">
+    <meta name="viewport" content="width=100, initial-scale=1">
+  </head>
+  <body>
+    <div id="container">
+      <header>
+        <a href="{{ .Site.Params.homeurl }}" id="logo"></a>
+        <h1 id="title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+      </header>
+      <div id="content">
+        {{ if .IsNode }}
+          {{ if .IsHome }}
+            {{ partial "home.html" . }}
+          {{ end }}
+        {{ else }}
+          {{ partial "post.html" . }}
+        {{ end }}
+      </div>
+    </div>
+  </body>
+</html>
