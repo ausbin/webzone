@@ -17,9 +17,9 @@ when I update my blog, how do I easily delete the old files and copy
 over the new ones without any time period, however brief, during which
 some of the files are missing?
 
-(For example, simply "`rm -r`"ing `/my/docroot/blog/*` and then copying
-in the new files won't work because between the time you delete some
-page X and copy it over, requests to X will 404.)
+(For example, simply `rm -r`ing `/my/docroot/blog/*` and then copying in
+the new files won't work because between the time you delete some page X
+and copy it over, requests to X will 404.)
 
 My answer, of course, is git combined with ~~a kludgey atrocity~~ some
 elegant git hooks!

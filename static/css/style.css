@@ -78,6 +78,12 @@ div#content {
   font-size: 14px;
 }
 
+div#content code {
+  background-color: #F0F0F0;
+  padding: 2px;
+  border-radius: 2px;
+}
+
 div#content pre {
   background-color: #F0F0F0;
   padding: 4px;
