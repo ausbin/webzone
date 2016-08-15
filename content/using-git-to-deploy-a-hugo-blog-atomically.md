@@ -2,6 +2,7 @@
 date = "2016-08-14T18:37:12-04:00"
 draft = false
 title = "Using git to Deploy a Hugo Blog... Atomically!"
+description = "How I make changes to my blog with minimal effort"
 +++
 
 For years, I've been meaning to set up a blog, but characteristically I

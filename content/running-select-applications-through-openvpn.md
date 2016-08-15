@@ -2,6 +2,7 @@
 date = "2015-08-09T22:55:31-04:00"
 draft = false
 title = "Running Select Applications through OpenVPN"
+description = "How I configured my GNU/Linux system to run only certain applications through a VPN"
 +++
 
 *Note: I base this method heavily on [a great article by Sebastian
