@@ -79,6 +79,9 @@ div#content {
 }
 
 div#content pre {
+  background-color: #F0F0F0;
+  padding: 4px;
+  border-radius: 4px;
   overflow-x: auto;
 }
 
