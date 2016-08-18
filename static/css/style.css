@@ -78,7 +78,9 @@ div#content {
   font-size: 14px;
 }
 
-div#content code {
+/* Hugo puts <code> tags inside <pre> tags, so apply this style only to
+   independent <code> tags inside paragraphs */
+div#content p code {
   background-color: #F0F0F0;
   padding: 2px;
   border-radius: 2px;
