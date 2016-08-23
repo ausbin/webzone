@@ -1,7 +1,7 @@
 +++
 date = "2016-08-22T23:55:03-04:00"
 draft = false
-title = "Unbricking a TP Link Archer C7 v2 Router"
+title = "Unbricking a TP-Link Archer C7 v2 Router"
 description = "How I used tftpd-hpa to unbrick a TP-Link Archer C7 v2 Router"
 +++
 
