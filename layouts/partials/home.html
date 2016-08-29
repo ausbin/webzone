@@ -1,5 +1,7 @@
 <ul id="postlist">
   {{ range .Site.Pages }}
-    <li>{{ .Date.Format "2006-01-02" }}: <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ if not .Params.unlisted }}
+        <li>{{ .Date.Format "2006-01-02" }}: <a href="{{ .Permalink }}">{{ .Title }}</a></li>
+    {{ end }}
   {{ end }}
 </ul>
