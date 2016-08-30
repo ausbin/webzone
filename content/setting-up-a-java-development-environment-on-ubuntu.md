@@ -11,6 +11,23 @@ implementation of Java, and [IntelliJ][3], so this guide will use both.
 First Steps
 ===========
 
+Getting a Compatible Release
+----------------------------
+
+You'll need to install (or upgrade to) a recent release of Ubuntu to
+install Java 8. 14.04, for instance, has only Java 7. As the time of
+writing, 16.04 LTS is the most recent, so I'd suggest that.
+
+If you have an earlier release installed, run:
+
+    $ sudo do-release-upgrade
+
+Otherwise, download Ubuntu 16.04 (or a later release) from [the download
+page][7] and install it.
+
+Updating the Package Cache & Packages
+-------------------------------------
+
 To ensure we don't have a stale package list or out-of-date packages:
 
     $ sudo apt-get update && sudo apt-get upgrade
@@ -57,3 +74,4 @@ shortcuts on its own, you tell it to create them by choosing "Tools" →
 [4]: http://packages.ubuntu.com/search?keywords=intellij&searchon=names&suite=xenial&section=all
 [5]: https://www.jetbrains.com/idea/download/#section=linux
 [6]: https://en.wikipedia.org/wiki/Tar_%28computing%29 
+[7]: http://www.ubuntu.com/download
