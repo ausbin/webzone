@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2016-08-14T18:37:12-04:00"
 draft = false
 title = "Using git to Deploy a Hugo Blog... Atomically!"

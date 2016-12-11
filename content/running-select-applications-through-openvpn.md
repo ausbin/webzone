@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2015-08-09T22:55:31-04:00"
 draft = false
 title = "Running Select Applications through OpenVPN"

@@ -1,4 +1,5 @@
 +++
+type = "post"
 date = "2016-08-18T12:00:00-04:00"
 draft = false
 title = "Running Select Applications through a Cisco AnyConnect VPN"
