@@ -4,7 +4,6 @@ date = "2016-12-19T08:42:58-05:00"
 draft = false
 title = "Counting Strings Recursively in Combinatorics"
 description = "How I solve recursive string-counting problems in combinatorics"
-unlisted = true
 hasmath = true
 +++
 
