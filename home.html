@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>austin adams</title>
+    <title>Austin Adams</title>
     <meta charset="utf-8">
     <link rel="icon" href="/favicon.ico">
 
@@ -14,122 +14,91 @@
 
     <style type="text/css">
       body {
-        /* non-standard */
-        -moz-user-select: none;
-        -webkit-user-select: none;
-        -ms-user-select: none;
-        cursor: default;
-
         font-family: sans-serif;
         color: black;
+      }
+
+      #container {
+        max-width: 512px;
+        margin: 0 auto;
       }
 
       header {
         text-align: center;
 
         display: block;
-        margin: 32px auto 0 auto;
-        width: 80px;
+        margin: 64px auto 0 auto;
+        max-width: 400px;
       }
 
-      header div#logo {
+      #name {
+        font-weight: normal;
+        font-size: 32px;
+        margin: 0;
+      }
+
+      #tagline {
+        margin-top: 8px;
+        font-size: 14px;
+        color: #444;
+      }
+
+      nav {
+        margin: 8px 0;
+        padding: 0;
+        border-top: 1px solid #aaa;
+        border-bottom: 1px solid #aaa;
+      }
+
+      #navigation {
+        list-style-type: none;
         display: block;
-        height: 64px;
-        width: 64px;
-        margin: 8px auto;
-        background-color: #DEF5FF;
-      }
-
-      header h1#name {
-        margin-bottom: 4px;
-        display: block;
-        font-weight: bold;
-        font-size: 16px;
-      }
-
-      header span#blurb {
-        display: block;
-        width: 128px;
-        margin: 8px 0 8px -24px;
-
-        font-size: 12px;
-      }
-
-      header span#blurb a:link {
-        text-decoration: underline;
-      }
-
-      header nav {
-        display: block;
-        font-size: 12px;
-      }
-
-      header ul {
-        list-style: none;
         margin: 0;
         padding: 0;
       }
 
-      header nav a {
+      #navigation li {
+        display: inline-block;
+        width: 20%;
+      }
+
+      .navlink {
+        text-decoration: none;
+        color: #222;
+        padding: 8px 4px;
         display: block;
-        padding-bottom: 4px;
       }
 
-      header a:link, header a:visited, header a:active {
-        text-decoration: none;
-        color: black;
-      }
-
-      header a:hover {
-        text-decoration: none;
+      .navlink:hover {
         transition-duration: 0.25s;
-        color: #00C88C;
+        color: white;
+        background-color: #aaa;
+      }
+
+      @media (max-width: 500px) {
+        #navigation li {
+          display: block;
+          width: 100%;
+        }
       }
     </style>
-    <script type="application/javascript">
-      // use some simple obfuscation to hide my email address from
-      // viagra merchants
-      function deobfuscate(s) {
-        var result = "";
-
-        for (var i = s.length-1; i > 0; i -= 2)
-          result += s[i];
-
-        return result;
-      }
-
-      function fixaddr() {
-        var scheme = deobfuscate("::oottlliiaamm");
-        var addr = deobfuscate("mmoocc..ssmmaaddaajjnniittssuuaa@@iihh");
-        
-        var addrlink = document.getElementById("emailaddr");
-        addrlink.title = addr;
-        addrlink.href = scheme + addr;
-      }
-    </script>
   </head>
   <body>
-    <header>
-      <div id="logo"></div>
-      <h1 id="name">
-        austin adams
-      </h1>
-      <span id="blurb">
-        hi! i'm austin, a georgia tech student interested in programming and gnu/linux.
-      </span>
-      <nav>
-        <ul>
-          <li><a href="/blog/">blog</a></li>
-          <li><a href="https://code.austinjadams.com/">code</a></li>
-          <li><a href="/tools">tools</a></li>
-          <li><a id="emailaddr" title="spam@austinjadams.com &mdash; in the address, change &quot;spam&quot; to something else" href="mailto:spam@austinjadams.com?subject=in%20the%20address,%20change%20%22spam%22%20to%20something%20else">contact</a></li>
-          <li><a href="/pgp/2016.asc">pgp key</a></li>
-        </ul>
-      </nav>
-    </header>
-    <script type="application/javascript">
-      fixaddr();
-    </script>
+    <div id="container">
+      <header>
+        <h1 id="name">Austin Adams</h1>
+        <div id="tagline">Georgia Tech student, programmer, GNU/Linux finesser</div>
+        <nav>
+          <ul id="navigation">
+            <li><a class="navlink" href="/blog/">blog</a></li><!--
+         --><li><a class="navlink" href="https://code.austinjadams.com/">projects</a></li><!--
+         --><li><a class="navlink" href="/about/">about</a></li><!--
+         --><li><a class="navlink" href="/cv.pdf">résumé</a></li><!--
+         --><li><a class="navlink" id="emailaddr" title="hi@austinjadams.com" href="mailto:hi@austinjadams.com">contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    </div>
   </body>
 </html>
 <!-- vim: set ts=2 sw=2 : -->
