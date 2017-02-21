@@ -1,6 +1,6 @@
 baseurl = "https://austinjadams.com/"
 languageCode = "en-us"
-title = "austin's lousy blog"
+title = "Austin Adams"
 # toolbag/nginx handle 404s for us
 disable404 = true
 disableRSS = true
