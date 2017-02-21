@@ -1,4 +1,4 @@
-baseurl = "https://austinjadams.com/blog/"
+baseurl = "https://austinjadams.com/"
 languageCode = "en-us"
 title = "austin's lousy blog"
 # toolbag/nginx handle 404s for us
