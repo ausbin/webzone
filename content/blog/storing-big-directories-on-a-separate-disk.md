@@ -1,5 +1,4 @@
 +++
-type = "post"
 date = "2016-08-16T22:53:00-04:00"
 draft = false
 title = "Storing Big Directories on a Separate Disk"

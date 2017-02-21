@@ -1,5 +1,4 @@
 +++
-type = "post"
 date = "2016-08-29T15:38:20-04:00"
 draft = false
 title = "Setting Up a Java Development Environment on Ubuntu"

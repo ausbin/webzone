@@ -1,5 +1,4 @@
 +++
-type = "post"
 date = "2016-08-21T13:05:37-04:00"
 draft = false
 title = "Using a Remote CUPS Printer from Windows and GNU/Linux"

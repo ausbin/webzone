@@ -1,5 +1,4 @@
 +++
-type = "post"
 date = "2017-02-18T10:55:59-05:00"
 draft = false
 title = "Defeating dd-formmailer's Weak CAPTCHA"

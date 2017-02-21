@@ -1,5 +1,4 @@
 +++
-type = "post"
 date = "2016-12-19T08:42:58-05:00"
 draft = false
 title = "Counting Strings Recursively in Combinatorics"
