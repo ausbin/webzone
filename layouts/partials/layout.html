@@ -34,9 +34,7 @@
       </header>
       <div id="content">
         {{ if .IsNode }}
-          {{ if .IsHome }}
-            {{ partial "home.html" . }}
-          {{ end }}
+          {{ partial "home.html" . }}
         {{ else }}
           {{ partial "post.html" . }}
         {{ end }}
