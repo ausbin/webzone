@@ -1,4 +1,5 @@
 /* New layout */
+
 body {
   font-family: sans-serif;
   color: black;
@@ -90,28 +91,29 @@ nav {
   }
 }
 
-/* Homepage */
+/* Post list */
 
 ul#postlist {
   list-style-type: none;
   padding: 0;
 }
 
-ul#postlist a {
-  color: #22A89B;
+/* Post */
+
+/* Make links bold gray */
+#content a {
+  color: #555;
   font-weight: bold;
   text-decoration: none;
 }
 
-ul#postlist a:hover {
+#content a:hover {
   text-decoration: underline;
 }
 
-/* Post */
-
 div#content h1#posttitle {
   font-size: 24px;
-  margin: 8px 0;
+  margin: 16px 0;
 }
 
 span#postdate {
