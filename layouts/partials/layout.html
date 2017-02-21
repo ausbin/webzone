@@ -51,7 +51,7 @@
       <div id="content">
         {{ if .IsHome }}
         {{ else if .IsNode }}
-          {{ partial "home.html" . }}
+          {{ partial "post_list.html" . }}
         {{ else if (eq .Section "blog") }}
           {{ partial "post.html" . }}
         {{ else }}
