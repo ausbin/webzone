@@ -1,14 +1,16 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
     <title>{{ if .IsPage }}{{ .Title }} « {{ end }}{{ .Site.Title }}</title>
+    <meta charset="utf-8">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 
     <meta name="author" content="Austin Adams">
     {{ .Hugo.Generator }}
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
+    <!-- google doesn't use this, but oh well -->
+    <meta name="keywords" content="austin adams, linux, screamingmoron, austin j adams, ausbin, austin, georgia, marietta, kennesaw state university, georgia tech">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{ if .Params.hasmath }}
@@ -29,16 +31,35 @@
   <body>
     <div id="container">
       <header>
-        <a href="{{ .Site.Params.homeurl }}" id="logo"></a>
-        <h1 id="title"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
+        <h1 id="name"><a href="{{ .Site.BaseURL }}">Austin Adams</a></h1>
+        {{/* Manual URL checking (yuck!) is needed because of https://github.com/spf13/hugo/issues/954#issuecomment-81928889  */}}
+        {{ if (or (eq .URL "/blog/") (eq .Section "blog")) }}
+          <div id="tagline"><a href="/blog/">The Blog</a></div>
+        {{ else }}
+          <div id="tagline">Georgia Tech Student, programmer, GNU/Linux finesser</div>
+        {{ end }}
+        <nav>
+          <ul id="navigation">
+            <li><a class="navlink" href="/blog/">blog</a></li><!--
+         --><li><a class="navlink" href="/projects/">projects</a></li><!--
+         --><li><a class="navlink" href="/about/">about</a></li><!--
+         --><li><a class="navlink" href="/cv.pdf">résumé</a></li><!--
+         --><li><a class="navlink" id="emailaddr" title="hi@austinjadams.com" href="mailto:hi@austinjadams.com">contact</a></li>
+          </ul>
+        </nav>
       </header>
       <div id="content">
-        {{ if .IsNode }}
+        {{ if .IsHome }}
+        {{ else if .IsNode }}
           {{ partial "home.html" . }}
-        {{ else }}
+        {{ else if (eq .Section "blog") }}
           {{ partial "post.html" . }}
+        {{ else }}
+          {{/* Info pages */}}
+          {{ .Content }}
         {{ end }}
       </div>
     </div>
   </body>
 </html>
+<!-- vim: set ts=2 sw=2 : -->
