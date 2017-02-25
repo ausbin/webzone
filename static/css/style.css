@@ -170,4 +170,39 @@ div#content hr {
   border: none;
   border-top: 1px solid silver;
 }
+
+/* Home */
+
+.recent-pane {
+  margin: 0;
+  display: inline-block;
+  width: 240px;
+  vertical-align: top;
+  padding: 0 8px;
+}
+
+.recent-pane ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+.recent-pane blockquote {
+  font-style: italic;
+  margin: 4px 0 8px 0;
+  font-size: 12px;
+  border-left: 4px solid #eee;
+  padding: 0 0 0 8px;
+}
+
+div#content h2.recent-title {
+  color: #333;
+  margin: 4px 0;
+  font-size: 16px;
+}
+
+.recent-date {
+  font-size: 12px;
+}
+
 /* vim: set ts=2 sw=2 : */

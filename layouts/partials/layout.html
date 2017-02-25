@@ -50,6 +50,7 @@
       </header>
       <div id="content">
         {{ if .IsHome }}
+          {{ partial "home.html" . }}
         {{ else if .IsNode }}
           {{ partial "post_list.html" . }}
         {{ else if (eq .Section "blog") }}

@@ -1,0 +1,15 @@
+<div class="recent-pane">
+  <h2 class="recent-title">Recent Blog Posts</h2>
+  <ul>
+    {{ range first 3 (where (where .Site.Pages "Section" "=" "blog") ".Params.unlisted" "!=" "true") }}
+      <li>
+        <a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a>
+        <div class="recent-date">{{ .Date.Format "January 2, 2006" }}</div>
+        <blockquote>{{ .Summary }}</blockquote>
+      </li>
+    {{ end }}
+  </ul>
+</div><div class="recent-pane">
+  <h2 class="recent-title">Recent Commits</h2>
+  <em>(under construction)</em>
+</div>
