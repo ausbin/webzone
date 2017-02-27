@@ -181,13 +181,13 @@ div#content hr {
   padding: 0 8px;
 }
 
-.recent-pane ul {
+.recent-blog ul {
   list-style-type: none;
   padding: 0;
   margin: 8px 0;
 }
 
-.recent-pane blockquote {
+.recent-blog blockquote {
   font-style: italic;
   margin: 4px 0 8px 0;
   font-size: 12px;
@@ -203,6 +203,22 @@ div#content h2.recent-title {
 
 .recent-date {
   font-size: 12px;
+}
+
+.recent-git ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 8px 0;
+}
+
+#content a.recent-git-summary {
+  font-weight: normal;
+  color: black;
+  font-family: monospace;
+}
+
+.recent-git li {
+  margin: 0 0 8px 0;
 }
 
 /* vim: set ts=2 sw=2 : */
