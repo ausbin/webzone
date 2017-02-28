@@ -1,7 +1,10 @@
-<!DOCTYPE html>
+{{/* This manual URL checking (yuck!) is needed because of
+     https://github.com/spf13/hugo/issues/954#issuecomment-81928889
+*/}}{{ $isBlog := (or (eq .URL "/blog/") (eq .Section "blog")) }}{{/*
+*/}}<!DOCTYPE html>
 <html>
   <head>
-    <title>{{ if .IsPage }}{{ .Title }} « {{ end }}{{ .Site.Title }}</title>
+    <title>{{ if .IsPage }}{{ .Title }} « {{ end }}{{ if $isBlog }}Blog « {{ end }}{{ .Site.Title }}</title>
     <meta charset="utf-8">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
@@ -32,8 +35,7 @@
     <div id="container">
       <header>
         <h1 id="name"><a href="{{ .Site.BaseURL }}">Austin Adams</a></h1>
-        {{/* Manual URL checking (yuck!) is needed because of https://github.com/spf13/hugo/issues/954#issuecomment-81928889  */}}
-        {{ if (or (eq .URL "/blog/") (eq .Section "blog")) }}
+        {{ if $isBlog }}
           <div id="tagline"><a href="/blog/">The Blog</a></div>
         {{ else }}
           <div id="tagline">Georgia Tech Student, programmer, GNU/Linux finesser</div>
