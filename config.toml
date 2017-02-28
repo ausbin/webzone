@@ -8,4 +8,5 @@ disableSitemap = true
 
 [params]
 homeurl = "/"
+tagline = "Georgia Tech student, programmer, GNU/Linux finesser"
 description = "Austin Adams's personal website and blog"

@@ -38,7 +38,7 @@
         {{ if $isBlog }}
           <div id="tagline"><a href="/blog/">The Blog</a></div>
         {{ else }}
-          <div id="tagline">Georgia Tech Student, programmer, GNU/Linux finesser</div>
+          <div id="tagline">{{ .Site.Params.tagline }}</div>
         {{ end }}
         <nav>
           <ul id="navigation">
