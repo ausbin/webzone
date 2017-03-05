@@ -66,7 +66,38 @@ I then combine each set of 32 commits from each repository into one big
 array, and sort the whole array by date, writing the latest 8 as Hugo
 content.
 
-Part 2: Regenerating the Site after a Push
+Part 2: Reading the Commits in a Hugo Template
+==============================================
+
+Gustave writes content files that look like the following
+(`content/commit/c01b6580a0.md`):
+
+    +++
+    type = "commit"
+    date = "2017-03-05T00:15:07-00:00"
+    draft = false
+    hash = "c01b6580a07b138f0f22b130a101b1582cecd72f"
+    summary = "style.css: Center images in posts"
+    repo = "webzone"
+    +++
+
+So in a template, you can write something like (copy-paste incoming):
+
+    <ul>
+      {{ range first 8 (where .Site.Pages "Section" "=" "commit") }}
+        <li>
+          <div class="recent-git-meta">
+              <a href="https://code.austinjadams.com/{{ .Params.repo }}/">{{ .Params.repo }}</a>
+              <span class="recent-date">{{ .Date.Format "2006-01-02" }}:</span>
+          </div>
+          <a class="recent-git-summary" href="https://code.austinjadams.com/{{ .Params.repo }}/commit/?id={{ .Params.hash }}">{{ .Params.summary }}</a>
+        </li>
+      {{ end }}
+    </ul>
+
+Just like with any other type of content in Hugo!
+
+Part 3: Regenerating the Site after a Push
 ==========================================
 
 I already wrote [a post about regenerating Hugo sites with git
