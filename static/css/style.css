@@ -171,6 +171,12 @@ div#content hr {
   border-top: 1px solid silver;
 }
 
+/* Center figures */
+div#content img {
+  display: block;
+  margin: 0 auto;
+}
+
 /* Home */
 
 .recent-pane {
