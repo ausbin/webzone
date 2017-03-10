@@ -53,8 +53,8 @@ parents!
 
 My first idea for traversal was brute force; that is, looking at every
 dang commit in the repository and then sorting them by date. However,
-for gigantic repositories like the Linux kernel, this approach
-introduces searches much more of the commit graph than necessary.
+for gigantic repositories like the Linux kernel, this approach searches
+much more of the commit graph than necessary.
 
 To inspect as little of the graph as possible while still finding recent
 commits, I settled on a [breadth-first search][9] which stops after
