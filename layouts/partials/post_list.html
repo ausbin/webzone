@@ -1,6 +1,6 @@
 <ul id="postlist">
   {{ range .Site.Pages }}
-    {{ if and (not .Params.unlisted) (eq .Type "blog") }}
+    {{ if and .IsPage (and (not .Params.unlisted) (eq .Type "blog")) }}
         <li>{{ .Date.Format "2006-01-02" }}: <a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a></li>
     {{ end }}
   {{ end }}
