@@ -30,7 +30,7 @@ software projects, but here are the highlights:
 [5]: {{< ref "blog/running-select-applications-through-anyconnect.md" >}}
 [6]: https://golang.org/
 [7]: https://git.zx2c4.com/cgit/about/
-[8]: /tools/
+[8]: /tools
 [9]: http://www.figlet.org/
 [10]: https://www.freedesktop.org/wiki/Software/systemd/
 [11]: https://bukkit.org/
