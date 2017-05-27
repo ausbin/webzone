@@ -49,7 +49,7 @@ The following diagram shows a real example [from the repository where
 this blog is stored][6]. Notice the commit [cf7a0d083c][7] has two
 parents!
 
-![Diagram of my webzone repository][i1]
+{{< figure src="/img/blog/including-recent-commits-hugo/commit-diagram.svg" alt="Diagram of my webzone repository" >}}
 
 My first idea for traversal was brute force; that is, looking at every
 dang commit in the repository and then sorting them by date. However,
@@ -155,5 +155,3 @@ repositories that I wanted to update my homepage upon receving a push.
 [8]: https://gohugo.io/
 [9]: https://en.wikipedia.org/wiki/Breadth-first_search
 [10]: {{< ref "blog/using-git-to-deploy-a-hugo-blog-atomically.md" >}}
-
-[i1]: /img/blog/including-recent-commits-hugo/commit-diagram.svg

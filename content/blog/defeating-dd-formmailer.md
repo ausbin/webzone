@@ -10,7 +10,7 @@ Yesterday, I visited a website that uses [dd-formmailer][1], a Wordpress
 plugin that provides a form for sending an email, complete with a
 CAPTCHA intended to prevent automated abuse. Here's a screenshot:
 
-![A screenshot of the dd-formmailer form][i1]
+{{< figure src="/img/blog/defeating-dd-formmailer/1.png" title="A screenshot of the dd-formmailer form" >}}
 
 I was bored and curious, so I looked at the CAPTCHA image and noticed it
 was always served from the same path:
@@ -111,4 +111,3 @@ Avoid Wordpress plugins last updated in 2009.
 
 [1]: http://www.dagondesign.com/articles/secure-form-mailer-plugin-for-wordpress/
 [2]: http://www.dagondesign.com/articles/secure-php-form-mailer-script/#download
-[i1]: /img/blog/defeating-dd-formmailer/1.png

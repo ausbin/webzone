@@ -171,10 +171,21 @@ div#content hr {
   border-top: 1px solid silver;
 }
 
-/* Center figures */
+/* Center images
+   Note: Avoid raw <img>s in blog posts, though, because they stretch the page
+   when they're too wide for narrow viewports. Use figures[1] (styled below)
+   instead.
+   1; https://gohugo.io/extras/shortcodes/#figure */
 div#content img {
   display: block;
   margin: 0 auto;
+}
+
+/* Center figures */
+div#content figure {
+  display: block;
+  margin: 0;
+  overflow-x: auto;
 }
 
 /* Home */
