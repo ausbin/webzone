@@ -156,4 +156,4 @@ repositories that I wanted to update my homepage upon receving a push.
 [9]: https://en.wikipedia.org/wiki/Breadth-first_search
 [10]: {{< ref "blog/using-git-to-deploy-a-hugo-blog-atomically.md" >}}
 
-[i1]: /img/gustave/commit-diagram.svg
+[i1]: /img/blog/including-recent-commits-hugo/commit-diagram.svg

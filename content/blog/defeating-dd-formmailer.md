@@ -111,4 +111,4 @@ Avoid Wordpress plugins last updated in 2009.
 
 [1]: http://www.dagondesign.com/articles/secure-form-mailer-plugin-for-wordpress/
 [2]: http://www.dagondesign.com/articles/secure-php-form-mailer-script/#download
-[i1]: /img/defeating/1.png
+[i1]: /img/blog/defeating-dd-formmailer/1.png
