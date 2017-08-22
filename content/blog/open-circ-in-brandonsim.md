@@ -25,7 +25,9 @@ Sometimes you gotta have pretty icons and pretty buttons, y'know? In the case of
         </mime-info>
 
 4. Run `update-mime-database ~/.local/share/mime`
-5. Create `~/.local/share/applications/brandonsim.desktop` with the following contents, except with _your_ path to the Brandonsim jar:
+5. Create `~/.local/share/applications/brandonsim.desktop` with the following
+   contents, except with _your_ path to the Brandonsim jar instead of
+   `/PATH/TO/YOUR/Brandonsim-2.7.4.jar`:
 
         [Desktop Entry]
         Version=1.0
