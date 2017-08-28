@@ -6,7 +6,22 @@ description = "Run a bunch of weird commands to see pretty icons, it's great"
 unlisted = true
 +++
 
-Sometimes you gotta have pretty icons and pretty buttons, y'know? In the case of Brandonsim on GNU/Linux, specifically to give it and `.circ` files pretty icons which open Brandonsim when clicked, all you gotta do is this stuff:
+Sometimes you gotta have pretty icons and pretty buttons, y'know? In the case of Brandonsim on GNU/Linux, specifically to give it and `.circ` files pretty icons which open Brandonsim when clicked, do one of the following:
+
+Option 1: Use a Script
+----------------------
+
+Download `Brandonsim-X.Y.Z.jar` from T-Square, put it somewhere permanent (moving it will break the files the script creates), and run the following command:
+
+    curl -Ls https://austinjadams.com/img/blog/open-circ-in-brandonsim/brandonsim-setup.sh | bash
+
+After the script completes, log out and log back in, just in case.
+
+Option 2: By Hand
+-----------------
+
+If you don't like piping random shell scripts from the internet into a shell,
+you can do the following instead:
 
 1. Run `mkdir -p ~/.local/share/applications/ ~/.local/share/mime/packages/`
 2. Install icons stolen from [Brandon's Brandonsim repo][1] by running:
