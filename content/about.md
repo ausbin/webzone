@@ -30,9 +30,15 @@ Previously, I attended [Kennesaw State University][3] for two years, one
 of which was full time in my senior year of high school through the [Dual
 Enrollment Honors Program][4].
 
-Professionally, I've worked on Windows applications and ASP.NET MVC, but
-in my free time, I write tools for GNU/Linux, including command-line
-utilities and webapps. See my [projects page][5] for details.
+Today, I work as an undergraduate teaching assistant for CS 2110, the
+intro to C and assembly class at Georgia Tech. I get to help students
+write recursive assembly, malloc() implementations, and Game Boy
+Advance games — it's fun!
+
+Professionally, I've worked on both GNU/Linux and Windows applications,
+from shell scripts to ASP.NET MVC, but in my free time, I write tools
+for GNU/Linux, mainly command-line utilities and webapps. See my
+[projects page][5] for details.
 
 [1]: http://gatech.edu/
 [2]: http://www.cc.gatech.edu/academics/degree-programs/bachelors/computer-science/threads
