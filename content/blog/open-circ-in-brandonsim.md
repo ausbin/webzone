@@ -3,7 +3,7 @@ date = "2017-08-22T09:23:22-04:00"
 draft = false
 title = "Opening .circ files in Brandonsim"
 description = "Run a bunch of weird commands to see pretty icons, it's great"
-unlisted = true
+unlisted = false
 +++
 
 Sometimes you gotta have pretty icons and pretty buttons, y'know? In the case of Brandonsim on GNU/Linux, specifically to give it and `.circ` files pretty icons which open Brandonsim when clicked, do one of the following:
