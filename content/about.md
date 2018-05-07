@@ -30,12 +30,12 @@ Previously, I attended [Kennesaw State University][3] for two years, one
 of which was full time in my senior year of high school through the [Dual
 Enrollment Honors Program][4].
 
-Today, I work as an undergraduate teaching assistant for CS 2110, the
-intro to C and assembly class at Georgia Tech. I get to help students
-write recursive assembly, malloc() implementations, and Game Boy Advance
-games — it's fun! I'm also a founding member of the [Young Democratic
-Socialists of America at Georgia Tech][6], a leftist organization on
-campus.
+Today, I work as the head teaching assistant for CS 2110, the intro to
+computer architecture course at Georgia Tech. I manage a team of TAs
+creating course material with the ultimate goal of stuffing knowledge of
+circuits, assembly, and C into students' brains with minimal suffering.
+We get to help students write recursive assembly, malloc()
+implementations, and Game Boy Advance games — it's fun!
 
 Professionally, I've worked on both GNU/Linux and Windows applications,
 from shell scripts to ASP.NET MVC, but in my free time, I write tools
@@ -47,6 +47,5 @@ for GNU/Linux, mainly command-line utilities and webapps. See my
 [3]: http://kennesaw.edu/
 [4]: http://honors.kennesaw.edu/dehp/
 [5]: {{< ref "projects.md" >}}
-[6]: https://www.facebook.com/YDSAGT/
 
 [i1]: /img/about/mugshot.jpg
