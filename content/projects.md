@@ -9,6 +9,9 @@ description = "My personal projects"
 You can check my [github][1] or [cgit][2] for a complete list of my free
 software projects, but here are the highlights:
 
+0. [zucchini][p0]: An extensible Python autograding framework used in CS
+   2110\. Connects with the [Canvas][13] API to auto-upload grades and
+   grade logs.
 1. [nsdo][p1]: A simple C program for running particular applications in [Linux
    network namespaces][3]. With some system configuration I've described in
    blog posts ([OpenVPN][4], [Cisco AnyConnect][5]), you can use it to run
@@ -35,7 +38,9 @@ software projects, but here are the highlights:
 [10]: https://www.freedesktop.org/wiki/Software/systemd/
 [11]: https://bukkit.org/
 [12]: https://gohugo.io/
+[13]: https://www.canvaslms.com/
 
+[p0]: https://github.com/zucchini/zucchini
 [p1]: https://github.com/ausbin/nsdo
 [p2]: https://github.com/ausbin/gong
 [p3]: https://github.com/ausbin/toolbag
