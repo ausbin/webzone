@@ -154,4 +154,4 @@ repositories that I wanted to update my homepage upon receving a push.
 [7]: https://code.austinjadams.com/webzone/commit/?id=cf7a0d083caabd4e237ad8fd688381df8185a114
 [8]: https://gohugo.io/
 [9]: https://en.wikipedia.org/wiki/Breadth-first_search
-[10]: {{< ref "blog/using-git-to-deploy-a-hugo-blog-atomically.md" >}}
+[10]: {{< ref "/blog/using-git-to-deploy-a-hugo-blog-atomically.md" >}}
