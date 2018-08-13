@@ -16,15 +16,19 @@ software projects, but here are the highlights:
    network namespaces][3]. With some system configuration I've described in
    blog posts ([OpenVPN][4], [Cisco AnyConnect][5]), you can use it to run
    particular applications in VPNs.
-2. [gong][p2]: A prototype git repository viewer written in [Go][6] intended to
+2. [novice][p2]: A work-in-progress assembler written in
+   [TypeScript][14] which hopes to bring the convenience of the current
+   tools used in CS 2110 for teaching assembly language to platforms
+   other than GNU/Linux and to classes with other ISAs, such as CS 2200
+3. [gong][p3]: A prototype git repository viewer written in [Go][6] intended to
    be a reboot of [cgit][7] for my personal use cases.
-3. [toolbag][p3]: Some Go tools for my website ([link to live instance][8]),
+4. [toolbag][p4]: Some Go tools for my website ([link to live instance][8]),
    which include a web
    frontend to [figlet][9] and a silly 404 generator.
-4. [mccmd][p4]: Tinkering with running a Minecraft server in [systemd][10].
+5. [mccmd][p5]: Tinkering with running a Minecraft server in [systemd][10].
    Includes a systemd unit for the Minecraft server plus a Java [Bukkit][11]
    plugin and client C program for issuing server commands.
-5. [This Website][p5], which is statically generated using [Hugo][12].
+6. [This Website][p6], which is statically generated using [Hugo][12].
 
 [1]: https://github.com/ausbin/
 [2]: https://code.austinjadams.com/
@@ -39,10 +43,12 @@ software projects, but here are the highlights:
 [11]: https://bukkit.org/
 [12]: https://gohugo.io/
 [13]: https://www.canvaslms.com/
+[14]: https://www.typescriptlang.org/
 
 [p0]: https://github.com/zucchini/zucchini
 [p1]: https://github.com/ausbin/nsdo
-[p2]: https://github.com/ausbin/gong
-[p3]: https://github.com/ausbin/toolbag
-[p4]: https://github.com/ausbin/mccmd
-[p5]: https://github.com/ausbin/webzone
+[p2]: https://github.com/zucchini/novice
+[p3]: https://github.com/ausbin/gong
+[p4]: https://github.com/ausbin/toolbag
+[p5]: https://github.com/ausbin/mccmd
+[p6]: https://github.com/ausbin/webzone
