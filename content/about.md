@@ -21,7 +21,7 @@ img {
 
 ![A photo of me][i1]
 
-Hi, I'm Austin Adams, a junior in Computer Science at the [Georgia
+Hi, I'm Austin Adams, a senior in Computer Science at the [Georgia
 Institute of Technology][1]. Since I enjoy low-level work and computer
 science theory, I chose the Theory and Systems & Architecture
 [threads][2], and I expect to graduate in Fall 2018.
