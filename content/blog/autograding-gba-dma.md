@@ -48,7 +48,7 @@ void redscreen(void) {
     DMA[3].src = &color;
     DMA[3].dst = videoBuffer;
     // dimensions of gba screen
-    DMA[3].cnt = DMA_ON | DMA_SRC_FIX | DMA_DEST_INC | (240 * 160);
+    DMA[3].cnt = DMA_ON | DMA_SRC_FIX | DMA_DST_INC | (240 * 160);
 }
 ```
 
@@ -70,7 +70,7 @@ void redsquare(int width, int height) {
         DMA[3].src = &color;
         DMA[3].dst = videoBuffer + row * 240;
         // dimensions of gba screen
-        DMA[3].cnt = DMA_ON | DMA_SRC_FIX | DMA_DEST_INC | width;
+        DMA[3].cnt = DMA_ON | DMA_SRC_FIX | DMA_DST_INC | width;
     }
 }
 ```
@@ -93,8 +93,8 @@ Abusing Virtual Memory to Solve Your Life Problems
 ==================================================
 
 What's a good way to make a memory access halt execution of a program,
-much like how setting the `DMA_ON` bit in the control register has the
-DMA controller halts the CPU while the copy runs? A page fault!
+much like how setting the `DMA_ON` bit in the control register makes the
+DMA controller halt the CPU while the copy runs? A page fault!
 
 We can make DMA accesses pagefault by making the DMA macro point to some
 page marked as unwritable in the page table. Then our page fault handler
