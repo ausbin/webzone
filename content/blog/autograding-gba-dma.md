@@ -83,11 +83,11 @@ square. So that ain't gonna work.
 Consequently, before this semester, we never autograded DMA. Instead, we
 would `grep` students' code for `for` loops to see if they were
 manipulating the videoBuffer pixel-by-pixel[^^1] without DMA and then
-would make sure the emulator showed the right image. But my goal in 2110 is
-to autograde as much as possible (especially because TAs would be
-grading the timed lab during or right before their final exams), so I
-decided to take this opportunity to flex so hard I caused permanent
-muscle damage.
+would make sure the emulator showed the right image. But my goal in 2110
+is to autograde as much as possible, especially because TAs would've
+needed to grade this timed lab during or right before their final exams,
+so I decided to try to adapt [my favorite homework from my Operating
+Systems class][5] into an autograder.
 
 Abusing Virtual Memory to Solve Your Life Problems
 ==================================================
@@ -146,6 +146,12 @@ A visualization for all this follows:
 
 On Linux, you can map pages with `mmap()`, change their permissions with
 `mprotect()`, and catch page faults by registering a `SIGSEGV` handler.
+And to make sure the compiler loads the address of the fake DMA page
+from memory every time we dereference the `DMA` macro, we can define the
+`DMA` macro such that it expands to a `volatile *volatile`. That is, a
+pointer to volatile memory that itself is volatile, like
+
+    #define DMA ((volatile DMA_CONTROLLER *volatile) fake_dma_page)
 
 Simulating DMA
 ==============
@@ -330,3 +336,4 @@ requires the CS 2110 GBA toolchain, but that's not really the fun part
 [2]: https://en.wikipedia.org/wiki/Direct_memory_access
 [3]: https://en.wikipedia.org/wiki/Loop_unrolling
 [4]: https://github.com/ausbin/dma-autograder-template/
+[5]: https://pdos.csail.mit.edu/6.828/2017/homework/mmap.html
