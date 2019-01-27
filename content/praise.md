@@ -47,7 +47,7 @@ student evaluations:
 ----
 
 > Having half the class failing under your watch isn't cool, even if you
-> think it is.
+> think it is. [\[proof\]][1]
 
 ----
 
@@ -81,3 +81,5 @@ student evaluations:
 ----
 
 > more memes
+
+[1]: ../img/praise/fall2018-stats.png
