@@ -36,6 +36,10 @@ student evaluations:
 
 ----
 
+> ought to watch more anime
+
+----
+
 > This course was not just a disappointing course, but an embarrassment
 > to Georgia Tech. [1400 words omitted] They need to seriously consider
 > restructuring this course.
