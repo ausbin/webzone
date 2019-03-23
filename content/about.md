@@ -35,10 +35,10 @@ answering emails, I spent a bunch of time writing autograders for
 and even [Gameboy Advance DMA][8]. Here's some [praise from student
 evaluations][9].
 
-Professionally, I've worked on both GNU/Linux and Windows applications,
-from shell scripts to ASP.NET MVC, but in my free time, I write tools
-for GNU/Linux, mainly command-line utilities and webapps. See my
-[projects page][5] for details.
+Today, I work for [Amazon][10] in Seattle, Washington, on bulk product
+uploads to Vendor Central. Outside of work, when I'm not climbing or
+hiking around, I write tools for GNU/Linux, mainly command-line
+utilities and webapps. See my [projects page][5] for details.
 
 [1]: http://gatech.edu/
 [3]: http://kennesaw.edu/
@@ -47,5 +47,6 @@ for GNU/Linux, mainly command-line utilities and webapps. See my
 [6]: https://github.com/ausbin/circuitsim-grader-template
 [8]: {{< ref "blog/autograding-gba-dma.md" >}}
 [9]: {{< ref "praise.md" >}}
+[10]: https://www.amazon.com/
 
 [i1]: /img/about/mugshot.jpg
