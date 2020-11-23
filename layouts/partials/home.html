@@ -1,7 +1,7 @@
 <div class="recent-pane recent-blog">
   <h2 class="recent-title">Recent Blog Posts</h2>
   <ul>
-    {{ range first 3 (where (where .Site.Pages "Section" "=" "blog") ".Params.unlisted" "!=" true) }}
+    {{ range first 3 (where (where .Site.RegularPages "Section" "=" "blog") ".Params.unlisted" "!=" true) }}
       <li>
         <a href="{{ .Permalink }}" title="{{ .Description }}">{{ .Title }}</a>
         <div class="recent-date">{{ .Date.Format "January 2, 2006" }}</div>
