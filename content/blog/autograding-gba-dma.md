@@ -21,7 +21,7 @@ details on GBA DMA][1].)
 
 Students use DMA as follows:
 
-```c
+```
 // provided boilerplate
 typedef struct {
 	const volatile void *src;
@@ -163,7 +163,7 @@ simulate it!
 
 But there's a complication here too. Returning to the earlier example,
 
-```c
+```
 void redscreen(void) {
     volatile u16 color = RED;
     DMA[3].src = &color;

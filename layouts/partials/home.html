@@ -12,7 +12,7 @@
 </div><div class="recent-pane recent-git">
   <h2 class="recent-title">Recent Commits</h2>
   <ul>
-    {{ range first 8 (where .Site.Pages "Section" "=" "commit") }}
+    {{ range first 8 (where .Site.RegularPages "Section" "=" "commit") }}
       <li>
         <div class="recent-git-meta">
             <a href="https://code.austinjadams.com/{{ .Params.repo }}/">{{ .Params.repo }}</a>

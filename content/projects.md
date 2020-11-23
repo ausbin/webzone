@@ -9,26 +9,26 @@ description = "My personal projects"
 You can check my [github][1] or [cgit][2] for a complete list of my free
 software projects, but here are the highlights:
 
-0. [zucchini][p0]: An extensible Python autograding framework used in CS
+1. [zucchini][p0]: An extensible Python autograding framework used in CS
    2110\. Connects with the [Canvas][13] API to auto-upload grades and
    grade logs, and can auto-generate autograder .zips for [Gradescope
    Cloud Autograding][15].
-1. [nsdo][p1]: A simple C program for running particular applications in [Linux
+2. [nsdo][p1]: A simple C program for running particular applications in [Linux
    network namespaces][3]. With some system configuration I've described in
    blog posts ([OpenVPN][4], [Cisco AnyConnect][5]), you can use it to run
    particular applications in VPNs.
-2. [novice][p2]: A work-in-progress assembler written in
+3. [novice][p2]: A work-in-progress assembler written in
    [TypeScript][14] which hopes to bring the convenience of the current
    tools used in CS 2110 for teaching assembly language to platforms
    other than GNU/Linux and to classes with other ISAs, such as CS 2200
-3. [gong][p3]: A prototype git repository viewer written in [Go][6] intended to
+4. [gong][p3]: A prototype git repository viewer written in [Go][6] intended to
    be a reboot of [cgit][7] for my personal use cases.
-4. [toolbag][p4]: Some Go tools for my website ([link to live instance][8]),
+5. [toolbag][p4]: Some Go tools for my website ([link to live instance][8]),
    which include a web frontend to [figlet][9] and a silly 404 generator.
-5. [mccmd][p5]: Tinkering with running a Minecraft server in [systemd][10].
+6. [mccmd][p5]: Tinkering with running a Minecraft server in [systemd][10].
    Includes a systemd unit for the Minecraft server plus a Java [Bukkit][11]
    plugin and client C program for issuing server commands.
-6. [This Website][p6], which is statically generated using [Hugo][12].
+7. [This Website][p6], which is statically generated using [Hugo][12].
 
 [1]: https://github.com/ausbin/
 [2]: https://code.austinjadams.com/

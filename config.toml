@@ -10,3 +10,6 @@ disableSitemap = true
 homeurl = "/"
 tagline = "georgia tech alum, programmerdude"
 description = "Austin Adams's personal website and blog"
+
+[markup.goldmark.renderer]
+unsafe=true
