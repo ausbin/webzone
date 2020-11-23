@@ -8,7 +8,7 @@ disableSitemap = true
 
 [params]
 homeurl = "/"
-tagline = "georgia tech alum, programmerdude"
+tagline = "CS grad student and at-risk youth"
 description = "Austin Adams's personal website and blog"
 
 [markup.goldmark.renderer]

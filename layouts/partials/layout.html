@@ -34,7 +34,7 @@
   <body>
     <div id="container">
       <header>
-        <h1 id="name"><a href="{{ .Site.BaseURL }}">Austin Adams</a></h1>
+        <h1 id="name"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
         {{ if $isBlog }}
           <div id="tagline"><a href="/blog/">The Blog</a></div>
         {{ else }}

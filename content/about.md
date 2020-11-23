@@ -13,7 +13,7 @@ p {
 img {
   border: 1px solid #333;
   border-radius: 4px;
-  max-width: 128px;
+  max-width: 150px;
   display: block;
   margin: 0 auto;
 }

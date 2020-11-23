@@ -37,9 +37,10 @@ header {
 
 #tagline {
   min-height: 20px;
-  margin-top: 4px;
+  margin: 4px auto 0 auto;
   font-size: 14px;
   color: #444;
+  max-width: 300px;
 }
 
 #tagline a {
