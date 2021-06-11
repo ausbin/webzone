@@ -5,6 +5,12 @@ title = "Running Select Applications through a Cisco AnyConnect VPN"
 description = "How I configured my GNU/Linux system to run only certain applications through an AnyConnect VPN"
 +++
 
+## This is outdated now. Please see the [README of the `nsdo` GitHub repository][9] instead
+
+---
+---
+---
+
 In an [earlier article specific to OpenVPN][1], I wrote:
 
 > To isolate VPN applications from applications running 'bare,' I use
@@ -169,3 +175,4 @@ later with one.
 [6]: https://www.freedesktop.org/software/systemd/man/systemd-tty-ask-password-agent.html
 [7]: https://git.kernel.org/cgit/utils/util-linux/util-linux.git
 [8]: https://wiki.linuxfoundation.org/networking/iproute2
+[9]: https://github.com/ausbin/nsdo#readme

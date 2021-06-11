@@ -5,6 +5,13 @@ title = "Running Select Applications through OpenVPN"
 description = "How I configured my GNU/Linux system to run only certain applications through a VPN"
 +++
 
+## This is outdated now. Please see the [README of the `nsdo` GitHub repository][11] instead
+
+---
+---
+---
+
+
 *Note: I base this method heavily on [a great article by Sebastian
 Thorarensen][1].*
 
@@ -225,3 +232,4 @@ by pointing your client to `foo:5050`:
 [8]: http://manpages.ubuntu.com/manpages/xenial/en/man7/capabilities.7.html
 [9]: https://www.freedesktop.org/software/systemd/man/systemd.unit.html
 [10]: https://code.austinjadams.com/nsdo
+[11]: https://github.com/ausbin/nsdo#readme
