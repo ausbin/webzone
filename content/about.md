@@ -21,9 +21,10 @@ img {
 
 ![A photo of me][i1]
 
-Hi, I'm Austin Adams, a PhD student at the [Georgia Institute of
+Hi, I'm Austin Adams, a graduate student at the [Georgia Institute of
 Technology][1] studying quantum computing from a computer architecture
-perspective. My advisor is [Tom Conte][11].
+perspective. My advisor is [Tom Conte][11], and you can find my
+publications [listed here][5].
 
 I graduated from Georgia Tech in 2018 with a Bachelor of Science in
 Computer Science. Previously, I had attended [Kennesaw State
@@ -39,14 +40,14 @@ Here's some [praise from student evaluations][9].
 
 After graduation, I worked for [Amazon][10] in Seattle, Washington, for
 a little under 2 years on a great team who maintained bulk product
-uploads to Vendor Central. I haven't worked on programming projects much
-lately, but you can see some of my past projects on my [projects
+uploads to Vendor Central. I haven't worked on programming projects too
+much lately, but you can see some of my past projects on my [projects
 page][5].
 
 [1]: http://gatech.edu/
 [3]: http://kennesaw.edu/
 [4]: https://dep.kennesaw.edu/
-[5]: {{< ref "projects.md" >}}
+[5]: {{< ref "work.md" >}}
 [6]: https://github.com/ausbin/circuitsim-grader-template
 [8]: {{< ref "blog/autograding-gba-dma.md" >}}
 [9]: {{< ref "praise.md" >}}

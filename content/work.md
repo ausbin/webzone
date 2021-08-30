@@ -2,21 +2,27 @@
 type = "info"
 date = "2017-02-21T14:14:38-05:00"
 draft = false
-title = "Projects"
-description = "My personal projects"
+title = "My Work"
+description = "Listing of my humble projects and publications"
 +++
 
-You can check my [github][1] or [cgit][2] for a complete list of my free
-software projects, but here are the highlights:
+My humble list of publications:
 
-1. [zucchini][p0]: An extensible Python autograding framework used in CS
+1. Austin Adams, Pulkit Gupta, Blaise Tine, and Hyesoon Kim.
+   "[Cryptography Acceleration in a RISC-V GPGPU][pub0]." [_Fifth
+   Workshop on Computer Architecture Research with RISC-V (Co-located
+   with ISCA 2021)_][pub0venue]. June 2021.
+
+I have also written some free software projects. You can check my
+[github][1] for a complete list, but here are the highlights:
+
+1. [nsdo][p1]: A simple C program for running particular applications in [Linux
+   network namespaces][3]. With some system configuration described in
+   [the README][4], you can use it to run particular applications in VPNs.
+2. [zucchini][p0]: An extensible Python autograding framework used in CS
    2110\. Connects with the [Canvas][13] API to auto-upload grades and
    grade logs, and can auto-generate autograder .zips for [Gradescope
    Cloud Autograding][15].
-2. [nsdo][p1]: A simple C program for running particular applications in [Linux
-   network namespaces][3]. With some system configuration I've described in
-   blog posts ([OpenVPN][4], [Cisco AnyConnect][5]), you can use it to run
-   particular applications in VPNs.
 3. [novice][p2]: A work-in-progress assembler written in
    [TypeScript][14] which hopes to bring the convenience of the current
    tools used in CS 2110 for teaching assembly language to platforms
@@ -33,8 +39,7 @@ software projects, but here are the highlights:
 [1]: https://github.com/ausbin/
 [2]: https://code.austinjadams.com/
 [3]: https://lwn.net/Articles/580893/
-[4]: {{< ref "blog/running-select-applications-through-openvpn.md" >}}
-[5]: {{< ref "blog/running-select-applications-through-anyconnect.md" >}}
+[4]: https://github.com/ausbin/nsdo#readme
 [6]: https://golang.org/
 [7]: https://git.zx2c4.com/cgit/about/
 [8]: /tools
@@ -53,3 +58,6 @@ software projects, but here are the highlights:
 [p4]: https://github.com/ausbin/toolbag
 [p5]: https://github.com/ausbin/mccmd
 [p6]: https://github.com/ausbin/webzone
+
+[pub0]: https://carrv.github.io/2021/papers/CARRV2021_paper_87_Adams.pdf
+[pub0venue]: https://carrv.github.io/2021/

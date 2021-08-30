@@ -8,8 +8,9 @@ disableSitemap = true
 
 [params]
 homeurl = "/"
-tagline = "CS grad student and at-risk youth"
+tagline = "computer science grad student"
 description = "Austin Adams's personal website and blog"
+email = "aja@gatech.edu"
 
 [markup.goldmark.renderer]
 unsafe=true
