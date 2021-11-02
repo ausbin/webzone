@@ -8,7 +8,10 @@ description = "Listing of my humble projects and publications"
 
 My humble list of publications:
 
-1. Austin Adams, Pulkit Gupta, Blaise Tine, and Hyesoon Kim.
+1. Austin Adams, Elton Pinto, Jeffrey Young, Creston Herold, Alex McCaskey, Eugene Dumitrescu,
+and Thomas M. Conte.
+   "[Enabling a Programming Environment for an Experimental Ion Trap Quantum Testbed][pub1]." [_2021 IEEE International Conference on Rebooting Computing (ICRC '21)_][pub1venue]. November 2021.
+2. Austin Adams, Pulkit Gupta, Blaise Tine, and Hyesoon Kim.
    "[Cryptography Acceleration in a RISC-V GPGPU][pub0]." [_Fifth
    Workshop on Computer Architecture Research with RISC-V (Co-located
    with ISCA 2021)_][pub0venue]. June 2021.
@@ -61,3 +64,5 @@ I have also written some free software projects. You can check my
 
 [pub0]: https://carrv.github.io/2021/papers/CARRV2021_paper_87_Adams.pdf
 [pub0venue]: https://carrv.github.io/2021/
+[pub1]: https://arxiv.org/abs/2111.00146
+[pub1venue]: https://icrc.ieee.org/
