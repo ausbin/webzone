@@ -3,7 +3,7 @@ date = "2018-01-24T10:20:07-05:00"
 draft = false
 title = "Opening .sim files in Roigisim (CircuitSim)"
 description = "Run a bunch of weird commands to see pretty icons, it's great"
-unlisted = false
+unlisted = true
 +++
 
 On GNU/Linux, to make `.sim` files have a [Roigisim][1] icon and open in
