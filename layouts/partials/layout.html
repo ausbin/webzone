@@ -25,6 +25,8 @@
                     inlineMath: [['$','$'], ['\\(','\\)']],
                     displayMath: [['$$','$$'], ['\\[','\\]']],
                     processEscapes: true,
+                    loader: {load: ['[tex]/newcommand']},
+                    tex: {packages: {'[+]': ['newcommand']}},
                 }
             });
         </script>
