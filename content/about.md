@@ -23,8 +23,8 @@ img {
 
 Hi, I'm Austin Adams, a graduate student at the [Georgia Institute of
 Technology][1] studying quantum computing from a computer architecture
-perspective. My advisor is [Tom Conte][11], and you can find my
-publications [listed here][5].
+perspective. I am co-advised by [Tom Conte][11] and [Jeff Young][12], and you
+can find my publications [listed here][5].
 
 I graduated from Georgia Tech in 2018 with a Bachelor of Science in
 Computer Science. Previously, I had attended [Kennesaw State
@@ -53,5 +53,6 @@ page][5].
 [9]: {{< ref "praise.md" >}}
 [10]: https://www.amazon.com/
 [11]: http://www.conte.us/
+[12]: https://jyoung3131.github.io/
 
 [i1]: /img/about/mugshot.jpg

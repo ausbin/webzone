@@ -10,11 +10,11 @@ My humble list of publications:
 
 1. Austin Adams, Elton Pinto, Jeffrey Young, Creston Herold, Alex McCaskey, Eugene Dumitrescu,
 and Thomas M. Conte.
-   "[Enabling a Programming Environment for an Experimental Ion Trap Quantum Testbed][pub1]." [_2021 IEEE International Conference on Rebooting Computing (ICRC '21)_][pub1venue]. November 2021.
+   "[Enabling a Programming Environment for an Experimental Ion Trap Quantum Testbed][pub1]." [_2021 IEEE International Conference on Rebooting Computing (ICRC '21)_][pub1venue]. November 2021. [\[slides\]][pub1slides]
 2. Austin Adams, Pulkit Gupta, Blaise Tine, and Hyesoon Kim.
    "[Cryptography Acceleration in a RISC-V GPGPU][pub0]." [_Fifth
    Workshop on Computer Architecture Research with RISC-V (Co-located
-   with ISCA 2021)_][pub0venue]. June 2021.
+   with ISCA 2021)_][pub0venue]. June 2021. [\[slides\]][pub0slides]
 
 I have also written some free software projects. You can check my
 [github][1] for a complete list, but here are the highlights:
@@ -64,5 +64,7 @@ I have also written some free software projects. You can check my
 
 [pub0]: https://carrv.github.io/2021/papers/CARRV2021_paper_87_Adams.pdf
 [pub0venue]: https://carrv.github.io/2021/
+[pub0slides]: /img/work/carrv_2021_slides.pdf
 [pub1]: https://arxiv.org/abs/2111.00146
 [pub1venue]: https://icrc.ieee.org/
+[pub1slides]: /img/work/icrc_2021_slides.pdf
