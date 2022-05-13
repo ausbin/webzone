@@ -86,4 +86,13 @@ student evaluations:
 
 > more memes
 
+----
+
+> g\*mer
+
+----
+
+> gamer [...]
+
+
 [1]: ../img/praise/fall2018-stats.png
