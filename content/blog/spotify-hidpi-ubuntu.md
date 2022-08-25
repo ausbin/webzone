@@ -4,6 +4,7 @@ draft = false
 title = "Fixing Spotify on HiDPI on Ubuntu"
 description = "Some notes on how to use Spotify on Ubuntu without needing a telescope"
 hasmath = false
+unlisted = true
 +++
 
 The [official "Spotify for Linux" page][1] states:

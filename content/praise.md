@@ -51,7 +51,7 @@ student evaluations:
 ----
 
 > Having half the class failing under your watch isn't cool, even if you
-> think it is. [\[proof\]][1]
+> think it is. [\[link to proof of this\]][1]
 
 ----
 
