@@ -23,6 +23,12 @@ On a high level, my solution works like the following:
  3. Whenever I push to one of my git repositories, rebuild the site.
     (This currently takes less than a tenth of a second.)
 
+**Edit (October 2022): I removed recent commits and blog posts from the front
+page of my website because in my new career (grad school), it makes more sense
+to prioritize my "about" page over my blog or commits. If you want to see what
+the finished product of this post looked like, [you can try the Internet
+Archive][11].**
+
 Part 1: The Script
 ==================
 
@@ -155,3 +161,4 @@ repositories that I wanted to update my homepage upon receving a push.
 [8]: https://gohugo.io/
 [9]: https://en.wikipedia.org/wiki/Breadth-first_search
 [10]: {{< ref "/blog/using-git-to-deploy-a-hugo-blog-atomically.md" >}}
+[11]: http://web.archive.org/web/20190124070113/https://austinjadams.com/

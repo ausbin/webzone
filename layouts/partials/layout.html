@@ -4,7 +4,7 @@
 */}}<!DOCTYPE html>
 <html>
   <head>
-    <title>{{ if .IsPage }}{{ .Title }} « {{ end }}{{ if $isBlog }}Blog « {{ end }}{{ .Site.Title }}</title>
+    <title>{{ if (or .IsHome (not .IsNode)) }}{{ .Title }} « {{ end }}{{ if $isBlog }}Blog « {{ end }}{{ .Site.Title }}</title>
     <meta charset="utf-8">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
@@ -46,7 +46,7 @@
           <ul id="navigation">
             <li><a class="navlink" href="/blog/">blog</a></li><!--
          --><li><a class="navlink" href="/work/">work</a></li><!--
-         --><li><a class="navlink" href="/about/">about</a></li><!--
+         --><li><a class="navlink" href="/">about</a></li><!--
          --><li><a class="navlink" href="/cv.pdf">résumé</a></li><!--
          --><li><a class="navlink" id="emailaddr" title="{{ .Site.Params.email }}" href="mailto:{{ .Site.Params.email }}">contact</a></li>
           </ul>
@@ -54,7 +54,7 @@
       </header>
       <div id="content">
         {{ if .IsHome }}
-          {{ partial "home.html" . }}
+          {{ .Content }}
         {{ else if .IsNode }}
           {{ partial "post_list.html" . }}
         {{ else if (eq .Section "blog") }}
