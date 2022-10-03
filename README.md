@@ -29,9 +29,14 @@ post-receive hook runs, running gustave and then hugo to re-generate the site.
 
 See [my blog post][6] for more information.
 
+*Note: as of October 2022, I removed recent commits from the front page of my
+website for career-change reasons, but if you want to see what the recent
+commits listing used to look like, [you can try the Internet Archive][7].*
+
 [1]: https://gohugo.io/
 [2]: https://github.com/spf13/hugo/releases
 [3]: https://austinjadams.com/blog/using-git-to-deploy-a-hugo-blog-atomically/
 [4]: https://github.com/ausbin/gustave/
 [5]: https://code.austinjadams.com/gustave/
 [6]: https://austinjadams.com/blog/including-recent-commits-hugo/
+[7]: http://web.archive.org/web/20190124070113/https://austinjadams.com/
