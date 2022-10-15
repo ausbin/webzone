@@ -45,8 +45,10 @@ TA for CS 6290, the graduate intro to computer architecture course at Georgia
 Tech that covers topics such as branch prediction and out-of-order execution.
 Here's some [praise from student evaluations][9] across all my time TAing.
 
-Between undergrad and grad school, I worked for [Amazon][10] in Seattle,
-Washington, for about 2 years on some backend retail code.
+During the ~2 years between undergrad and grad school, I lived in Seattle and
+worked as a software engineer on product ingestion into the [Amazon][10]
+catalog. (For more information on the inner workings of the Amazon catalog,
+[see this article][18].)
 
 
 [1]: http://gatech.edu/
@@ -64,5 +66,6 @@ Washington, for about 2 years on some backend retail code.
 [15]: https://docs.microsoft.com/en-us/azure/quantum/overview-what-is-qsharp-and-qdk
 [16]: http://hdl.handle.net/1853/66658
 [17]: https://github.com/zucchini/zucchini
+[18]: https://en.wikipedia.org/wiki/Rube_Goldberg_machine
 
 [i1]: /img/about/mugshot.jpg

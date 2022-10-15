@@ -1,6 +1,6 @@
 baseurl = "https://austinjadams.com/"
 languageCode = "en-us"
-title = "Austin Adams"
+title = "austin adams"
 # toolbag/nginx handle 404s for us
 disable404 = true
 disableRSS = true
@@ -10,6 +10,8 @@ disableSitemap = true
 homeurl = "/"
 tagline = "computer science PhD student"
 description = "Austin Adams's personal website and blog"
+# The title in the <title> tag
+titletitle = "Austin Adams"
 email = "aja@gatech.edu"
 
 [markup.goldmark.renderer]

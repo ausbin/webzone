@@ -4,7 +4,7 @@
 */}}<!DOCTYPE html>
 <html>
   <head>
-    <title>{{ if (or .IsHome (not .IsNode)) }}{{ .Title }} « {{ end }}{{ if $isBlog }}Blog « {{ end }}{{ .Site.Title }}</title>
+    <title>{{ if (or .IsHome (not .IsNode)) }}{{ .Title }} « {{ end }}{{ if $isBlog }}Blog « {{ end }}{{ .Site.Params.titletitle }}</title>
     <meta charset="utf-8">
     <link rel="icon" href="/favicon.ico">
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
@@ -38,7 +38,7 @@
       <header>
         <h1 id="name"><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
         {{ if $isBlog }}
-          <div id="tagline"><a href="/blog/">The Blog</a></div>
+          <div id="tagline"><a href="/blog/">the blog</a></div>
         {{ else }}
           <div id="tagline">{{ .Site.Params.tagline }}</div>
         {{ end }}
