@@ -1,6 +1,6 @@
 {{/* This manual URL checking (yuck!) is needed because of
      https://github.com/spf13/hugo/issues/954#issuecomment-81928889
-*/}}{{ $isBlog := (or (eq .URL "/blog/") (eq .Section "blog")) }}{{/*
+*/}}{{ $isBlog := (or (eq .Params.url "/blog/") (eq .Section "blog")) }}{{/*
 */}}<!DOCTYPE html>
 <html>
   <head>
@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="{{ .Site.BaseURL }}css/style.css">
 
     <meta name="author" content="Austin Adams">
-    {{ .Hugo.Generator }}
+    {{ hugo.Generator }}
     <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Site.Params.description }}{{ end }}">
     <!-- google doesn't use this, but oh well -->
     <meta name="keywords" content="austin adams, linux, screamingmoron, austin j adams, ausbin, austin, georgia, marietta, kennesaw state university, georgia tech">
