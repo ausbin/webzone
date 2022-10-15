@@ -17,20 +17,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {{ if .Params.hasmath }}
-        <!-- If this causes breakage in the future, see:
-             https://gohugo.io/tutorials/mathjax/#issues-with-markdown -->
-        <script type="text/x-mathjax-config">
-            MathJax.Hub.Config({
-                tex2jax: {
-                    inlineMath: [['$','$'], ['\\(','\\)']],
-                    displayMath: [['$$','$$'], ['\\[','\\]']],
-                    processEscapes: true,
-                    loader: {load: ['[tex]/newcommand']},
-                    tex: {packages: {'[+]': ['newcommand']}},
-                }
-            });
+        <script>
+        window.MathJax = {
+          tex: {
+            inlineMath: [['$','$'], ['\\(','\\)']],
+            displayMath: [['$$','$$'], ['\\[','\\]']],
+            processEscapes: true
+          }
+        };
         </script>
-        <script type="text/javascript" async src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3.0.0/es5/tex-mml-chtml.js"></script>
     {{ end }}
   </head>
   <body>
