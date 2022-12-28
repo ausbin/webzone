@@ -207,7 +207,8 @@ double-angle identities, which eliminate the division of $\theta$ by two):
 What do you know, that's **exactly the Bloch vector given by Mike & Ike** in
 Section 4.2! It's also the [equation for a sphere in spherical
 coordinates][10]! Believe it or not, it's also the same as the [expectation
-values][17] of [Pauli X, Y, and Z][18] respectively:
+values][17] of [Pauli X, Y, and Z][18] respectively, as [Mosseri and Dandoloff
+point out][6]:
 \\[
     (x,y,z) = (\langle\psi|\sigma_x|\psi\rangle, \langle\psi|\sigma_y|\psi\rangle, \langle\psi|\sigma_z|\psi\rangle)
 \\]
