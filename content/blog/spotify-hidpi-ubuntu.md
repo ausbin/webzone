@@ -7,7 +7,7 @@ hasmath = false
 unlisted = true
 +++
 
-HI!!! Whoops, my bad
+HI!!! Whoops, my bad!! Uhhh
 
 The [official "Spotify for Linux" page][1] states:
 
