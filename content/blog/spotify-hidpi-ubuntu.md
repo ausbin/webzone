@@ -7,8 +7,6 @@ hasmath = false
 unlisted = true
 +++
 
-HI!!! Whoops, my bad!! Uhhh, oh man... Oh my... Come on. LETS GO
-
 The [official "Spotify for Linux" page][1] states:
 
 > Spotify for Linux is a labor of love from our engineers that wanted to
