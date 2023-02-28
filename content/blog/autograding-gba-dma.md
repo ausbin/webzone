@@ -16,7 +16,7 @@ and draws on the screen.
 But my favorite example of students poking with the GBA hardware
 introduces them to an important real-life example: [Direct Memory Access
 (DMA)][2]! The GBA has a DMA controller which amounts to a fast `memcpy()`
-in hardware which some additional switches to flip. ([See tonc for more
+in hardware with some additional switches to flip. ([See tonc for more
 details on GBA DMA][1].)
 
 Students use DMA as follows:
@@ -191,7 +191,7 @@ happen:
  1. We only know they're writing to the control register, not that
     they're setting the `DMA_ON` bit
  2. Similarly, we don't know how much they're copying
- 3. We don't how if they're using source decrement or source increment.
+ 3. We don't know if they're using source decrement or source increment.
     (Source decrement means subtracting 2, or 4 if 32-bit DMAing is
      enabled, from the source address instead of adding after
      each one of the `N` transfers.)
