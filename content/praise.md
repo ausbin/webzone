@@ -28,6 +28,8 @@ hr {
 Here's a cherrypicked list of the highest praise I've received in
 student evaluations:
 
+### TAing
+
 > nothing except maybe less CS humor
 
 ----
@@ -94,5 +96,51 @@ student evaluations:
 
 > gamer [...]
 
+### Teaching
+
+> has the energy of somebody that's always on certain illicit
+> substances I won't name (though I wish my brain was wired like
+> that) but I think just naturally
+
+----
+
+> Austin Adams
+
+----
+
+> piazza
+
+----
+
+> idk
+
+----
+
+> I am not sure. I feel that personally, there was minimal value to
+> learning anything [...]
+
+----
+
+> No comment.
+
+----
+
+> Interesting sense of humor. 
+
+----
+
+> We need more memes!
+
+----
+
+> Stop using the word "cursed" to describe things during lecture.
+
+----
+
+> get big
+
+----
+
+> not having a grad student teach.
 
 [1]: ../img/praise/fall2018-stats.png
