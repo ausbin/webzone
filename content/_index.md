@@ -24,26 +24,21 @@ img {
 ![A photo of me][i1]
 
 Hi, I'm Austin Adams, a PhD student at the [Georgia Institute of
-Technology][1] studying quantum computing from a computer architecture
-perspective. I am co-advised by [Tom Conte][11] and [Jeff Young][12], and you
-can find my publications [listed here][5].
+Technology][1] studying compilers and programming languages for quantum
+computers. I am co-advised by [Tom Conte][11] and [Jeff Young][12], and
+you can find my publications [listed here][5].
 
-I am particularly interested in architecture and compilation techniques for ion
-trap quantum computers and hybrid quantum--classical programming. I have
-experience hacking on both the [Q#][15] compiler and the [QCOR][13]/[XACC][14]
-compilation framework(s).
+I got my Bachelor of Science in Computer Science in 2018 and my Master of
+Science in Computer Science in 2022, both from Georgia Tech. My master's thesis
+was titled [_Enabling a Programming Environment for an Experimental Ion Trap
+Quantum Testbed_][16], which involved hacking on the [QCOR][13]/[XACC][14]
+compilation framework(s). Between finishing master's and starting PhD, I
+interned at Microsoft and worked on [the Q# compiler][15].
 
-I graduated from Georgia Tech in 2018 with a Bachelor of Science in Computer
-Science. As an undergrad, I worked as the head teaching assistant for CS 2110,
-the undergraduate intro to computer architecture course at Georgia Tech where I
-wrote a [bunch][6] [of][17] [autograders][8].
-
-In 2022, I also completed my Master of Science in Computer Science from Georgia
-Tech. My master's thesis was titled [_Enabling a Programming Environment for an
-Experimental Ion Trap Quantum Testbed_][16]. During my master's, I was the head
-TA for CS 6290, the graduate intro to computer architecture course at Georgia
-Tech that covers topics such as branch prediction and out-of-order execution.
-Here's some [praise from student evaluations][9] across all my time TAing.
+I have been the head TA of both CS 2110 and CS 4290/6290, the grad and
+undergrad intro to computer architecture courses at Georgia Tech. I have also
+been an instructor (of record) for CS 2110. Here's some [praise from student
+evaluations][9] across all my time TAing and teaching.
 
 During the ~2 years between undergrad and grad school, I lived in Seattle and
 worked as a software engineer on product ingestion into the [Amazon][10]
@@ -59,7 +54,7 @@ catalog. (For more information on the inner workings of the Amazon catalog,
 [8]: {{< ref "blog/autograding-gba-dma.md" >}}
 [9]: {{< ref "praise.md" >}}
 [10]: https://www.amazon.com/
-[11]: http://www.conte.us/
+[11]: https://prod.tinker.cc.gatech.edu/
 [12]: https://jyoung3131.github.io/
 [13]: https://qcor.ornl.gov/
 [14]: https://github.com/eclipse/xacc
