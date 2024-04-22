@@ -23,10 +23,11 @@ img {
 
 ![A photo of me][i1]
 
-Hi, I'm Austin Adams, a PhD student at the [Georgia Institute of
-Technology][1] studying compilers and programming languages for quantum
-computers. I am co-advised by [Tom Conte][11] and [Jeff Young][12], and
-you can find my publications [listed here][5].
+Hi, I'm Austin Adams, a PhD student at the [Georgia Institute of Technology][1]
+studying compilers and programming languages for quantum computers. I am
+co-advised by [Tom Conte][11] and [Jeff Young][12], and you can find my
+publications [listed here][5]. Right now, my main project is [the Qwerty
+quantum programming language][19].
 
 I got my Bachelor of Science in Computer Science in 2018 and my Master of
 Science in Computer Science in 2022, both from Georgia Tech. My master's thesis
@@ -62,5 +63,6 @@ catalog. (For more information on the inner workings of the Amazon catalog,
 [16]: http://hdl.handle.net/1853/66658
 [17]: https://github.com/zucchini/zucchini
 [18]: https://en.wikipedia.org/wiki/Rube_Goldberg_machine
+[19]: https://qwerty.cc.gatech.edu/
 
 [i1]: /img/about/mugshot.jpg
