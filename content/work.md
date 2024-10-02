@@ -6,7 +6,7 @@ title = "My Work"
 description = "Listing of my humble projects and publications"
 +++
 
-My humble list of publications:
+Selected publications (for more, see my [Google Scholar profile][16]):
 
 1. Austin J. Adams, Sharjeel Khan, Jeffrey S. Young, and Thomas M. Conte.
    "[Qwerty: A Basis-Oriented Quantum Programming Language][pub2]." arXiv. April 2024. [\[website\]][pub2website]
@@ -54,6 +54,7 @@ I have also written some free software projects. You can check my
 [13]: https://www.canvaslms.com/
 [14]: https://www.typescriptlang.org/
 [15]: https://gradescope-autograders.readthedocs.io/
+[16]: https://scholar.google.com/citations?user=7xRKdbwAAAAJ
 
 [p0]: https://github.com/zucchini/zucchini
 [p1]: https://github.com/ausbin/nsdo
