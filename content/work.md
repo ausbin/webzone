@@ -6,6 +6,14 @@ title = "My Work"
 description = "Listing of my humble projects and publications"
 +++
 
+<style>
+strong {
+  color: #555;
+  font-weight: bold;
+  text-decoration: none;
+}
+</style>
+
 Selected publications (for more, see my [Google Scholar profile][16]):
 
 1. Austin J. Adams, Sharjeel Khan, Arjun Bhamra, Ryan Abusaada, Anthony M. Cabrera, Cameron Hoechst, Jeffrey S. Young, and Thomas M. Conte.
