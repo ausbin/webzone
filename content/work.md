@@ -9,7 +9,7 @@ description = "Listing of my humble projects and publications"
 Selected publications (for more, see my [Google Scholar profile][16]):
 
 1. Austin J. Adams, Sharjeel Khan, Arjun Bhamra, Ryan Abusaada, Anthony M. Cabrera, Cameron Hoechst, Jeffrey S. Young, and Thomas M. Conte.
-   "Compiling Qwerty, a Basis-Oriented Quantum Programming Language."
+   "**Compiling Qwerty, a Basis-Oriented Quantum Programming Language**."
    To appear in _2025 IEEE/ACM International Symposium on Code Generation and Optimization (CGO '25)_. March 2025.
 2. Austin J. Adams, Sharjeel Khan, Jeffrey S. Young, and Thomas M. Conte.
    "[Qwerty: A Basis-Oriented Quantum Programming Language][pub2]." arXiv. April 2024. [\[website\]][pub2website]
