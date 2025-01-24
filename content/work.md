@@ -20,8 +20,8 @@ strong {
 Selected publications (for more, see my [Google Scholar profile][16]):
 
 1. Austin J. Adams, Sharjeel Khan, Arjun S. Bhamra, Ryan R. Abusaada, Anthony M. Cabrera, Cameron C. Hoechst, Travis S. Humble, Jeffrey S. Young, and Thomas M. Conte.
-   "**<span class="smallcaps">Asdf</span>: A Compiler for Qwerty, a Basis-Oriented Quantum Programming Language**."
-   To appear in _2025 IEEE/ACM International Symposium on Code Generation and Optimization (CGO '25)_. March 2025.
+   "[<span class="smallcaps">Asdf</span>: A Compiler for Qwerty, a Basis-Oriented Quantum Programming Language][pub3]."
+   To appear in _2025 IEEE/ACM International Symposium on Code Generation and Optimization (CGO '25)_. March 2025. [\[source code\]][pub3code]
 2. Austin J. Adams, Sharjeel Khan, Jeffrey S. Young, and Thomas M. Conte.
    "[Qwerty: A Basis-Oriented Quantum Programming Language][pub2]." arXiv. April 2024. [\[website\]][pub2website]
 3. Austin Adams, Elton Pinto, Jeffrey Young, Creston Herold, Alex McCaskey, Eugene Dumitrescu, and Thomas M. Conte.
@@ -86,3 +86,5 @@ I have also written some free software projects. You can check my
 [pub1slides]: /img/work/icrc_2021_slides.pdf
 [pub2]: https://arxiv.org/abs/2404.12603
 [pub2website]: https://qwerty.cc.gatech.edu/
+[pub3]: https://arxiv.org/abs/2501.13262
+[pub3code]: https://github.com/gt-tinker/qwerty/
