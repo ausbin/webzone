@@ -10,7 +10,7 @@ It has been a few years since I wrote a post on this blog, so I wanted to share
 a fun proof, even if it's a little trivial.$
 \newcommand{bra}\[1\]{\langle #1 |}
 \newcommand{ket}\[1\]{| #1 \rangle}
-\newcommand{bramket}\[2\]{\langle #1 | #2 \rangle}
+\newcommand{braket}\[2\]{\langle #1 | #2 \rangle}
 \newcommand{bramket}\[3\]{\langle #1 | #2 | #3 \rangle}
 $
 
