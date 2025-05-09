@@ -143,4 +143,33 @@ student evaluations:
 
 > not having a grad student teach.
 
+----
+
+> git gud
+
+----
+
+> boomer humor
+
+----
+
+> the only issue was his vim colorscheme I recomend "mellow-theme/mellow.nvim"
+
+----
+
+> [528 words omitted] This was by far the most unjust, despicable class I have taken so far at tech.
+
+----
+
+> easy
+
+----
+
+> I almost died for the [merghe][2] sort hw
+
+----
+
+> Austin did not teach the labs
+
 [1]: ../img/praise/fall2018-stats.png
+[2]: https://en.wiktionary.org/wiki/merghe
