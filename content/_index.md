@@ -36,9 +36,9 @@ Quantum Testbed_][16], which involved hacking on the [QCOR][13]/[XACC][14]
 compilation framework(s). Between finishing master's and starting PhD, I
 interned at Microsoft and worked on [the Q# compiler][15].
 
-I have been the head TA of both CS 2110 and CS 4290/6290, the grad and
-undergrad intro to computer architecture courses at Georgia Tech. I have also
-been an instructor (of record) for CS 2110. Here's some [praise from student
+I have been the head TA of both CS 2110 and CS 4290/6290, the undergrad and
+grad intro to computer architecture courses at Georgia Tech. I have also been
+an instructor (of record) for CS 2110 twice. Here's some [praise from student
 evaluations][9] across all my time TAing and teaching.
 
 During the ~2 years between undergrad and grad school, I lived in Seattle and
