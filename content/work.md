@@ -20,7 +20,7 @@ strong {
 Selected publications (for more, see my [Google Scholar profile][16]):
 
 1. Austin J. Adams, Sharjeel Khan, Jeffrey S. Young, and Thomas M. Conte.
-   "Qwerty: A Basis-Oriented Quantum Programming Language." To appear in _2025 _IEEE International Conference on Quantum Computing and Engineering (QCE '25)_. September 2025. [\[preprint\]][pub2] [\[website\]][pub2website] 
+   "Qwerty: A Basis-Oriented Quantum Programming Language." To appear in _2025 IEEE International Conference on Quantum Computing and Engineering (QCE '25)_. September 2025. [\[preprint\]][pub2] [\[website\]][pub2website] 
 2. Austin J. Adams, Sharjeel Khan, Arjun S. Bhamra, Ryan R. Abusaada, Anthony M. Cabrera, Cameron C. Hoechst, Travis S. Humble, Jeffrey S. Young, and Thomas M. Conte.
    "[<span class="smallcaps">Asdf</span>: A Compiler for Qwerty, a Basis-Oriented Quantum Programming Language][pub3]."
    _2025 IEEE/ACM International Symposium on Code Generation and Optimization (CGO '25)_. March 2025. [\[slides\]][pub3slides] [\[artifact\]][pub3artifact] [\[github\]][pub3code]
