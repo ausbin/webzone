@@ -1,10 +1,13 @@
 +++
 date = "2025-02-03T12:06:55-05:00"
-draft = true
+draft = false
 title = "Proofs about Exponentials of Pauli Strings"
 description = "I outline proofs of some Pauli string identities due to Litinski (2019)"
 hasmath = true
+unlisted = true
 +++
+
+## This post is unfinished, so it may contain incorrect information.
 
 The paper ["A Game of Surface Codes: Large-Scale Quantum Computing with Lattice
 Surgery"][1] is a beautiful introduction to surface codes by Daniel Litinski.
