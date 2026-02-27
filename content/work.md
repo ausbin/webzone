@@ -19,8 +19,8 @@ strong {
 
 Selected publications (for more, see my [Google Scholar profile][16]):
 
-1. Austin J. Adams, Sharjeel Khan, Jeffrey S. Young, and Thomas M. Conte.
-   "Qwerty: A Basis-Oriented Quantum Programming Language." To appear in _2025 IEEE International Conference on Quantum Computing and Engineering (QCE '25)_. September 2025. [\[preprint\]][pub2] [\[website\]][pub2website] 
+1. Austin J. Adams, Sharjeel Khan, Arjun S. Bhamra, Ryan R. Abusaada, Jeffrey S. Young, and Thomas M. Conte.
+   "[Qwerty: A Basis-Oriented Quantum Programming Language][pub2]." _2025 IEEE International Conference on Quantum Computing and Engineering (QCE '25)_. September 2025. [\[website\]][pub2website] [\[slides\]][pub2slides]
 2. Austin J. Adams, Sharjeel Khan, Arjun S. Bhamra, Ryan R. Abusaada, Anthony M. Cabrera, Cameron C. Hoechst, Travis S. Humble, Jeffrey S. Young, and Thomas M. Conte.
    "[<span class="smallcaps">Asdf</span>: A Compiler for Qwerty, a Basis-Oriented Quantum Programming Language][pub3]."
    _2025 IEEE/ACM International Symposium on Code Generation and Optimization (CGO '25)_. March 2025. [\[slides\]][pub3slides] [\[artifact\]][pub3artifact] [\[github\]][pub3code]
@@ -41,18 +41,14 @@ I have also written some free software projects. You can check my
    2110\. Connects with the [Canvas][13] API to auto-upload grades and
    grade logs, and can auto-generate autograder .zips for [Gradescope
    Cloud Autograding][15].
-3. [novice][p2]: A work-in-progress assembler written in
-   [TypeScript][14] which hopes to bring the convenience of the current
-   tools used in CS 2110 for teaching assembly language to platforms
-   other than GNU/Linux and to classes with other ISAs, such as CS 2200
+3. [CircuitSim autograding framework][p4]: Digital logic autograding framework
+   used in introductory computer architecture courses at Georgia Tech (CS 2110
+   and CS 2200).
+4. [astro][p2]: A prototype sandbox for autograding C code safely and with more
+   helpful error messages than "Segmentation fault."
 4. [gong][p3]: A prototype git repository viewer written in [Go][6] intended to
    be a reboot of [cgit][7] for my personal use cases.
-5. [toolbag][p4]: Some Go tools for my website ([link to live instance][8]),
-   which include a web frontend to [figlet][9] and a silly 404 generator.
-6. [mccmd][p5]: Tinkering with running a Minecraft server in [systemd][10].
-   Includes a systemd unit for the Minecraft server plus a Java [Bukkit][11]
-   plugin and client C program for issuing server commands.
-7. [This Website][p6], which is statically generated using [Hugo][12].
+3. [This Website][p6], which is statically generated using [Hugo][12].
 
 [1]: https://github.com/ausbin/
 [2]: https://code.austinjadams.com/
@@ -72,10 +68,9 @@ I have also written some free software projects. You can check my
 
 [p0]: https://github.com/zucchini/zucchini
 [p1]: https://github.com/ausbin/nsdo
-[p2]: https://github.com/zucchini/novice
+[p2]: https://github.com/ausbin/astro
 [p3]: https://github.com/ausbin/gong
-[p4]: https://github.com/ausbin/toolbag
-[p5]: https://github.com/ausbin/mccmd
+[p4]: https://github.com/ausbin/circuitsim-grader-template
 [p6]: https://github.com/ausbin/webzone
 
 [pub0]: https://carrv.github.io/2021/papers/CARRV2021_paper_87_Adams.pdf
@@ -84,7 +79,8 @@ I have also written some free software projects. You can check my
 [pub1]: https://arxiv.org/abs/2111.00146
 [pub1venue]: https://icrc.ieee.org/
 [pub1slides]: /img/work/icrc_2021_slides.pdf
-[pub2]: https://arxiv.org/abs/2404.12603
+[pub2]: https://ieeexplore.ieee.org/abstract/document/11250282
+[pub2slides]: /img/work/qce_2025_slides.pdf
 [pub2website]: https://qwerty.cc.gatech.edu/
 [pub3]: https://dl.acm.org/doi/10.1145/3696443.3708966
 [pub3code]: https://github.com/gt-tinker/qwerty/
