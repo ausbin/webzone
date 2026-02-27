@@ -4,6 +4,7 @@ draft = false
 title = "Proof of the Expectation Value of Z for a Qubit State"
 description = "I outline my proof of how to find the expectation value of Z for an arbitrary qubit state"
 hasmath = true
+unlisted = true
 +++
 
 It has been a few years since I wrote a post on this blog, so I wanted to share
