@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="66mm"
+   height="85mm"
+   viewBox="0 0 66 85"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     transform="translate(-48.501888,-39.44305)">
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#666666;stroke-width:0.666;stroke-miterlimit:4;stroke-dasharray:1.99799, 0.666;stroke-dashoffset:0"
+       id="path1714"
+       cx="81.501839"
+       cy="87.989777"
+       rx="31.308247"
+       ry="12.052602" />
+    <path
+       style="fill:none;stroke:#000080;stroke-width:0.666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 81.501888,49.951731 -3e-6,32.038863"
+       id="path1" />
+    <ellipse
+       style="fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.666;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0"
+       id="path846"
+       cx="81.501884"
+       cy="81.990593"
+       rx="32.038776"
+       ry="32.038864" />
+    <ellipse
+       style="fill:#000080;fill-opacity:1;stroke:none;stroke-width:0.944999;stroke-miterlimit:4;stroke-dasharray:5.66999, 0.944999;stroke-dashoffset:0"
+       id="path1083-3"
+       cx="81.501884"
+       cy="49.951729"
+       rx="3.0011048"
+       ry="3.0011129" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000080;stroke-width:0.264583"
+       x="76.84687"
+       y="45.543728"
+       id="text2526-97-8-1"><tspan
+         id="tspan2524-5-8-8"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#000080;stroke-width:0.264583"
+         x="76.84687"
+         y="45.543728">00</tspan></text>
+    <path
+       style="fill:none;stroke:#800000;stroke-width:0.666;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 81.501888,114.02946 -3e-6,-32.038864"
+       id="path2" />
+    <ellipse
+       style="fill:#800000;fill-opacity:1;stroke:none;stroke-width:0.944999;stroke-miterlimit:4;stroke-dasharray:5.66999, 0.944999;stroke-dashoffset:0"
+       id="ellipse2"
+       cx="81.501884"
+       cy="-114.02946"
+       rx="3.0011048"
+       ry="3.0011129"
+       transform="scale(1,-1)" />
+    <text
+       xml:space="preserve"
+       style="font-size:8.46667px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#800000;stroke-width:0.264583"
+       x="76.824135"
+       y="123.83661"
+       id="text2"><tspan
+         id="tspan2"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#800000;stroke-width:0.264583"
+         x="76.824135"
+         y="123.83661">11</tspan></text>
+  </g>
+</svg>

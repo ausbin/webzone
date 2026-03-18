@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="140mm"
+   height="80mm"
+   viewBox="0 0 140 79.999999"
+   version="1.1"
+   id="svg1"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <marker
+       style="overflow:visible"
+       id="Triangle"
+       refX="0"
+       refY="0"
+       orient="auto-start-reverse"
+       markerWidth="1"
+       markerHeight="1"
+       viewBox="0 0 1 1"
+       preserveAspectRatio="xMidYMid">
+      <path
+         transform="scale(0.5)"
+         style="fill:context-stroke;fill-rule:evenodd;stroke:context-stroke;stroke-width:1pt"
+         d="M 5.77,0 -2.88,5 V -5 Z"
+         id="path135" />
+    </marker>
+    <linearGradient
+       id="linearGradient1">
+      <stop
+         style="stop-color:#00a6ff;stop-opacity:1;"
+         offset="0"
+         id="stop1" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.25"
+         id="stop7" />
+      <stop
+         style="stop-color:#ffef00;stop-opacity:1;"
+         offset="0.5"
+         id="stop3" />
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0.75"
+         id="stop8" />
+      <stop
+         style="stop-color:#00a6ff;stop-opacity:1;"
+         offset="1"
+         id="stop2" />
+    </linearGradient>
+    <linearGradient
+       xlink:href="#linearGradient1"
+       id="linearGradient6"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(40.911192,-29.238309)"
+       x1="96.5634"
+       y1="129.21826"
+       x2="132.38744"
+       y2="129.21826" />
+  </defs>
+  <g
+     id="layer1"
+     transform="translate(-82.720279,-82.067936)">
+    <g
+       id="g9"
+       transform="translate(2.7165121,3.3966008)">
+      <path
+         style="fill:none;stroke:#000000;stroke-width:1.30555;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 114.55018,129.29301 c 27.22428,-39.084086 54.44856,-39.084076 81.67284,0"
+         id="path8" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.96423;stroke-linecap:square"
+         id="path1"
+         cx="114.55018"
+         cy="129.29301"
+         r="17.912014" />
+      <g
+         id="g6"
+         transform="translate(4.2333335)">
+        <text
+           xml:space="preserve"
+           style="font-size:7.76111px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;stroke-width:0.264583"
+           x="99.574158"
+           y="155.27473"
+           id="text2526-97-8-1"><tspan
+             id="tspan2524-5-8-8"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#000000;stroke-width:0.264583"
+             x="99.574158"
+             y="155.27473">X</tspan></text>
+        <path
+           style="fill:none;stroke:#ff0000;stroke-width:0.639937;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+           d="M 85.194436,152.57309 H 97.345787"
+           id="path4" />
+        <path
+           style="fill:none;stroke:#ffff00;stroke-width:0.639937;stroke-linecap:butt;stroke-linejoin:miter;stroke-dasharray:none;stroke-opacity:1;marker-end:url(#Triangle)"
+           d="M 85.514251,152.8929 V 140.74155"
+           id="path5" />
+        <text
+           xml:space="preserve"
+           style="font-size:7.76111px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;stroke-width:0.264583"
+           x="83.384499"
+           y="137.93993"
+           id="text5"><tspan
+             id="tspan5"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#000000;stroke-width:0.264583"
+             x="83.384499"
+             y="137.93993">Y</tspan></text>
+        <text
+           xml:space="preserve"
+           style="font-size:7.76111px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;stroke-width:0.264583"
+           x="78.092827"
+           y="154.87328"
+           id="text6"><tspan
+             id="tspan6"
+             style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#000000;stroke-width:0.264583"
+             x="78.092827"
+             y="154.87328">Z</tspan></text>
+        <circle
+           style="fill:#e6e6e6;stroke:#b3b3b3;stroke-width:1.46646;stroke-linecap:square;stroke-dasharray:none"
+           id="path6"
+           cx="85.514252"
+           cy="152.57309"
+           r="1.2362947" />
+      </g>
+      <circle
+         style="fill:url(#linearGradient6);fill-opacity:1;stroke:none;stroke-width:1.96423;stroke-linecap:square"
+         id="circle6"
+         cx="155.3866"
+         cy="99.97995"
+         r="17.912014" />
+      <circle
+         style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.96423;stroke-linecap:square"
+         id="circle7"
+         cx="196.22302"
+         cy="129.29301"
+         r="17.912014" />
+      <text
+         xml:space="preserve"
+         style="font-size:7.76111px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;stroke-width:0.264583"
+         x="126.96796"
+         y="146.94981"
+         id="text2526-97-8-1-1"><tspan
+           id="tspan2524-5-8-8-2"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#000000;stroke-width:0.264583"
+           x="126.96796"
+           y="146.94981">Q1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.76111px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;stroke-width:0.264583"
+         x="209.16992"
+         y="146.94981"
+         id="text8"><tspan
+           id="tspan8"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#000000;stroke-width:0.264583"
+           x="209.16992"
+           y="146.94981">Q2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:7.76111px;line-height:1.25;font-family:'DejaVu Sans';-inkscape-font-specification:'DejaVu Sans';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ffffff;stroke-width:0.264583"
+         x="171.543"
+         y="88.651512"
+         id="text8-6"><tspan
+           id="tspan8-1"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:7.76111px;font-family:Consolas;-inkscape-font-specification:Consolas;fill:#000000;stroke-width:0.264583"
+           x="171.543"
+           y="88.651512">E{1,2}<tspan
+   style="font-style:italic;font-size:65%;baseline-shift:sub"
+   id="tspan9">even</tspan></tspan></text>
+    </g>
+  </g>
+</svg>
