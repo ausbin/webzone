@@ -38,8 +38,8 @@ interned at Microsoft and worked on [the Q# compiler][15].
 
 I have been the head TA of both CS 2110 and CS 4290/6290, the undergrad and
 grad intro to computer architecture courses at Georgia Tech. I have also been
-an instructor (of record) for CS 2110 twice. Here's some [praise from student
-evaluations][9] across all my time TAing and teaching.
+an instructor (of record) for CS 2110 three times. Here's some [praise from
+student evaluations][9] across all my time TAing and teaching.
 
 During the ~2 years between undergrad and grad school, I lived in Seattle and
 worked as a software engineer on product ingestion into the [Amazon][10]
